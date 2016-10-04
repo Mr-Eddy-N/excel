@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div ng-app="appMovies">
+    <div ng-controller="newMovie">
+        <input type="text" ng-model="Movie.Title" placeholder="Title" />
+        <input  ng-model="Movie.Director" placeholder="Director"/>
+        <input ng-model="Movie.Basado" placeholder="Basado" />
+        <input ng-model="Movie.Genero" placeholder="Genero" />
+        <input ng-model="Movie.Anio" placeholder="Año" />
+        <button ng-click="save()">SAVE</button> 
+        <div ng-bind="result"></div>
+
+    </div>
+
+
+</div>
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/Scripts/appMovies.js"></script>

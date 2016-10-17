@@ -1,0 +1,5 @@
+C:\ExcelServices\ExcelService-tec\ExcelService-tec\bin\Debug\ExcelService-tec.dll.config
+C:\ExcelServices\ExcelService-tec\ExcelService-tec\bin\Debug\ExcelService-tec.pdb
+C:\ExcelServices\ExcelService-tec\ExcelService-tec\obj\Debug\ExcelService-tec.csprojResolveAssemblyReference.cache
+C:\ExcelServices\ExcelService-tec\ExcelService-tec\obj\Debug\ExcelService-tec.dll
+C:\ExcelServices\ExcelService-tec\ExcelService-tec\obj\Debug\ExcelService-tec.pdb

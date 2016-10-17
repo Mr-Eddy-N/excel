@@ -1,0 +1,2 @@
+09/10/2016 06:47:46 p. m.	---UserPrincipal.Identity.IsAuthenticated:False
+09/10/2016 06:47:56 p. m.	get context

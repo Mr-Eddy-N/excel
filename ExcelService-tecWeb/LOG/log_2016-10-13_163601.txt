@@ -1,0 +1,5 @@
+13/10/2016 04:36:01 p. m.	---UserPrincipal.Identity.IsAuthenticated:False
+13/10/2016 04:36:15 p. m.	DOWNLOAD
+13/10/2016 04:36:15 p. m.	get context
+13/10/2016 04:36:31 p. m.	ExecuteQuery
+13/10/2016 04:37:18 p. m.	ExecuteQueryEnd:items

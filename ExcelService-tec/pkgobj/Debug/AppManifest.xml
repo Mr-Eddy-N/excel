@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Published:70EDFC97-B41D-43C5-B751-7C00AD999804-->
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="ExcelService-tec" ProductID="{0567eb7f-37c6-42d6-b025-698bfd076b70}" Version="1.0.0.1" SharePointMinVersion="15.0.0.0">
+  <Properties>
+    <Title>RegistroConsejeros-tec</Title>
+    <StartPage>https://registroconsejerospprd.apps.itesm.mx/?{StandardTokens}</StartPage>
+  </Properties>
+  <AppPrincipal>
+    <!--<<RemoteWebApplication ClientId="dacf252b-8c12-439d-873a-6097270e229b" /> -->
+    <!--TEST-->
+    <RemoteWebApplication ClientId="762c093a-9b80-4661-96b2-8927bdf21a6c" />
+    <!--PPRD-->
+  </AppPrincipal>
+  <AppPermissionRequests AllowAppOnlyPolicy="true">
+    <AppPermissionRequest Scope="http://sharepoint/social/tenant" Right="Manage" />
+    <AppPermissionRequest Scope="http://sharepoint/bcs/connection" Right="Read" />
+    <AppPermissionRequest Scope="http://sharepoint/content/tenant" Right="FullControl" />
+    <AppPermissionRequest Scope="http://sharepoint/search" Right="QueryAsUserIgnoreAppPrincipal" />
+  </AppPermissionRequests>
+</App>
